@@ -8,18 +8,25 @@
     <script src="videocar.js" defer></script>
     <title>Video-Caroussel</title>
     <div id="content">
-      <video src="./videos/1.mp4" controls></video>
+      <video id="playingVideo" src="./videos/1.mp4" controls></video>
       <div id="sidebar">
         <button>^</button>
         <div id="playlist">
-          <div class="playListElement">Video1</div>
-          <div class="playListElement">Video2</div>
-          <div class="playListElement">Video3</div>
-          <div class="playListElement">Video4</div>
+          <div class="playListElement"><img src="./thumbnails/vt1.png" /></div>
+          <div class="playListElement"><img src="./thumbnails/vt2.png" /></div>
+          <div class="playListElement"><img src="./thumbnails/vt3.png" /></div>
+          <div class="playListElement"><img src="./thumbnails/vt4.png" /></div>
         </div>
         <button>⌄</button>
       </div>
     </div>
+    <br />
+    <br />
+    <hr />
+    <center>
+      <h3>Video played:</h3>
+      <p id="showPlayedVideo"></p>
+    </center>
   </head>
   <body></body>
 </html>
